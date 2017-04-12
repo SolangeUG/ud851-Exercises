@@ -17,7 +17,6 @@ android {
             minifyEnabled false
         }
     }
-    // COMPLETED (1) Enable Data Binding in your application
     dataBinding.enabled = true;
 
 }
