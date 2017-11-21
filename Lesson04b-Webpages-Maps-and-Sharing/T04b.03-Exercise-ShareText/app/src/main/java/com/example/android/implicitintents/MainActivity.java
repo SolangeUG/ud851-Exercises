@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         ShareCompat.IntentBuilder.from(this)
                 .setChooserTitle(title)
                 .setType(mimeType)
-                .setType(text)
+                .setText(text)
                 .startChooser();
     }
 
