@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    // COMPLETED (7) Set the root layout of activity_settings to our newly created SettingsFragment
+    // and remove the padding.
+    // [HINT] Use a <fragment> element in xml
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_settings"
@@ -10,3 +16,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="android.example.com.visualizerpreferences.SettingsActivity">
 </RelativeLayout>
+
+-->
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:name="android.example.com.visualizerpreferences.SettingsFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" />
